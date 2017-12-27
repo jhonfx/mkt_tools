@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Generate JSON</title>
+		<script src="feeds/att_feed_nov10.js"></script>
+    <script src="feeds/xmlatt.js"></script>
+    <script src="feeds/jsonatt.js"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<script>
+			$(document).ready( function() {
+				//console.log(productos);
+
+        var data = null;
+        
+        var xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+        
+        xhr.addEventListener("readystatechange", function () {
+          if (this.readyState === 4) {
+            var obj = JSON.parse('{ "name": "jhon", "age": 30, "city": "new york"}');
+            console.log(this.responseText);
+          }
+        });
+        
+        xhr.open("GET", "https://www.att.com.mx/tienda/googletagmanager/");
+        xhr.setRequestHeader("cache-control", "no-cache");
+        xhr.setRequestHeader("postman-token", "e34d1ea3-eb76-68ba-7174-f8a6cdb377c2");
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+        xhr.setRequestHeader('Access-Control-Allow-Headers', '*')
+        
+        xhr.send(data);
+			});
+
+		</script>	
+	</body>
+</html>

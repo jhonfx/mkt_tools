@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Buen Fin</category3>
+      <id>00909000</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/s/8/s8_plus_negro_frente_1-sello_1.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s8-negro.html</page>
+      <price>17,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S8 negro</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Buen Fin</category3>
+      <id>00909010</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/s/8/s8_plata_frente_1-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s8-plata.html</page>
+      <price>17,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S8 plata</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Buen Fin</category3>
+      <id>00909020</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/s/8/s8_violeta_frente_1-sello_1.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s8-violeta.html</page>
+      <price>17,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S8 violeta</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Buen Fin</category3>
+      <id>00912840</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/g/a/galaxy-s8-rosa-frente-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s8-rosa.html</page>
+      <price>17,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S8 Rosa</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Buen Fin</category3>
+      <id>00913320</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/a/t/att_samsung_note8_frente-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-note-8-negro.html</page>
+      <price>22,999</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy Note 8 negr...</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Buen Fin</category3>
+      <id>00913330</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/a/t/att_samsung_note8_frente-sello_1.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-note-8-violeta.html</page>
+      <price>22,999</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy Note 8 viol...</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Samsung Galaxy S7</category3>
+      <id>00903950</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/t/i/tienda_att_samsung_s7_dorado_1-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s7-edge-32gb-dorado-cargador-inalambrico.html</page>
+      <price>15,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S7 edge 32G...</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Samsung Galaxy S7</category3>
+      <id>00905590</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/t/i/tienda_att_samsung_s7_plata_1_1-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s7-edge-32gb-plata-cargador-inalambrico.html</page>
+      <price>15,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S7 edge 32G...</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Samsung Galaxy S7</category3>
+      <id>00907930</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/s/7/s7_gearsamsungfrente-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s7-edge-32gb-dorado-gear-vr.html</page>
+      <price>15,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S7 Edge 32G...</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Samsung Galaxy S7</category3>
+      <id>00907940</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/s/7/s7edgenegrogearsamsung_front-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s7-edge-32gb-negro-gear-vr.html</page>
+      <price>15,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S7 Edge 32G...</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Samsung Galaxy S7</category3>
+      <id>00907950</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/s/7/s7_gearrosasamsungfrente-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s7-edge-32gb-rosa-gear-vr.html</page>
+      <price>15,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S7 Edge 32G...</title>
+   </product>
+   <product>
+      <brand>Samsung</brand>
+      <category>Celulares</category>
+      <category2>Samsung</category2>
+      <category3>Samsung Galaxy S7</category3>
+      <id>00907960</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/s/7/s7_gearplatasamsungfrente_1-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/samsung-galaxy-s7-edge-32gb-plata-gear-vr.html</page>
+      <price>15,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Samsung Galaxy S7 Edge 32G...</title>
+   </product>
+   <product>
+      <brand>Huawei</brand>
+      <category>Celulares</category>
+      <category2>Huawei</category2>
+      <category3>Buen Fin</category3>
+      <id>00909320</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/p/1/p10_plus_front-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/huawei-p10-plus-negro.html</page>
+      <price>15,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Huawei P10 Plus negro</title>
+   </product>
+   <product>
+      <brand>Huawei</brand>
+      <category>Celulares</category>
+      <category2>Huawei</category2>
+      <category3>Buen Fin</category3>
+      <id>00913240</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/h/u/huawei-p10-selfie-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/huawei-p10-selfie-negro.html</page>
+      <price>9,909</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Huawei P10 Selfie negro</title>
+   </product>
+   <product>
+      <brand>Huawei</brand>
+      <category>Celulares</category>
+      <category2>Huawei</category2>
+      <category3>Buen Fin</category3>
+      <id>00913250</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/h/u/huawei-p10-selfie-pink-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/huawei-p10-selfie-rosa.html</page>
+      <price>9,909</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Huawei P10 Selfie rosa</title>
+   </product>
+   <product>
+      <brand>Huawei</brand>
+      <category>Celulares</category>
+      <category2>Huawei</category2>
+      <category3>Buen Fin</category3>
+      <id>00909380</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/p/1/p10lite_negro_front.jpg</image>
+      <page>https://www.att.com.mx/tienda/huawei-p10-lite-negro.html</page>
+      <price>5,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Huawei P10 Lite negro</title>
+   </product>
+   <product>
+      <brand>Huawei</brand>
+      <category>Celulares</category>
+      <category2>Huawei</category2>
+      <category3>Buen Fin</category3>
+      <id>00909400</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/p/1/p10lite_azul_front.jpg</image>
+      <page>https://www.att.com.mx/tienda/huawei-p10-lite-azul.html</page>
+      <price>5,299</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Huawei P10 Lite azul</title>
+   </product>
+   <product>
+      <brand>ZTE</brand>
+      <category>Celulares</category>
+      <category2>ZTE</category2>
+      <category3>Buen Fin</category3>
+      <id>00911070</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/z/t/zte_v8mini_negro_front.jpg</image>
+      <page>https://www.att.com.mx/tienda/zte-blade-v8-mini-negro.html</page>
+      <price>3,999</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>ZTE Blade V8 mini negro + ...</title>
+   </product>
+   <product>
+      <brand>ZTE</brand>
+      <category>Celulares</category>
+      <category2>ZTE</category2>
+      <category3>Buen Fin</category3>
+      <id>00911110</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/z/t/zte_v8mini_gris_front.jpg</image>
+      <page>https://www.att.com.mx/tienda/zte-blade-v8-mini-gris.html</page>
+      <price>3,999</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>ZTE Blade V8 mini plata na...</title>
+   </product>
+   <product>
+      <brand>Sony Mobile</brand>
+      <category>Celulares</category>
+      <category2>Sony</category2>
+      <category3>Buen Fin</category3>
+      <id>00910930</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/s/o/sonyxzs_negro_front-sello.jpg</image>
+      <page>https://www.att.com.mx/tienda/sony-xperia-xzs-negro.html</page>
+      <price>14,999</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>Sony Xperia XZs negro + Au...</title>
+   </product>
+   <product>
+      <brand>ZTE</brand>
+      <category>Celulares</category>
+      <category2>ZTE</category2>
+      <category3>Buen Fin</category3>
+      <id>00911030</id>
+      <image>https://www.att.com.mx/tienda/media/catalog/product/z/t/zte_a521_front.jpg</image>
+      <page>https://www.att.com.mx/tienda/zte-blade-a521-blanco.html</page>
+      <price>2,399</price>
+      <thumbnail>https://www.webservices.twinkey.cool</thumbnail>
+      <title>ZTE Blade A521 blanco</title>
+   </product>
+</products>

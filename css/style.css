@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/geometry2.png')
+}
+
+.section_principal {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.error_page {
+  background-image: url('../img/cat.jpg');
+}

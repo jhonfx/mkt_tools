@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Generate JSON</title>
+		<script src="feeds/att_feed_nov10.js"></script>
+    <script src="feeds/xmlatt.js"></script>
+    <script src="feeds/jsonatt.js"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<script>
+			$(document).ready( function() {
+				//console.log(productos);
+        var prod = tuplas; // get info from json jsonatt.js 
+        var feed = [];
+				var utm = "?utm_source=twinkey&utm_medium=dsp&utm_content=utm_campaign=sm_noviembre";
+
+				for (x = 1; x < tuplas.length; x++) {
+          feed.push({
+            id: prod[x].id,
+            category: prod[x].category,
+            category2: prod[x].category2,
+            category3: prod[x].category3,
+            brand: prod[x].brand,
+            title: prod[x].title,
+            price: prod[x].price,
+            image: prod[x].image,
+            thumbnail: prod[x].thumbnail,
+            page: prod[x].page + '?utm_source=twinkey&utm_medium=dsp&utm_content='+prod[x].title.replace(/ /g, "_")+'&utm_campaign=sm_noviembre'
+          });
+				}
+				console.log(feed);
+
+			});
+
+		</script>	
+	</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+		<script src="feeds/att_feed_for_work.js"></script>
+		<script src="feeds/xmlatt.js"></script>
+		<script src="feeds/equipos_buenfin.js"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js'></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+	</head>
+	<body>
+		<script>
+			$(document).ready( function() {
+				//console.log(productos);
+				var tuplas = productos;
+				var rows = xmlatt;
+				var prods = arryEquipos;
+				var feed = [];
+				var feedBuenFin = [];
+				var existe = [];
+				var noexiste = [];
+				var marca;
+				var marcas = [];
+				var dontHaveThumb = [];
+
+				for (r = 0; r < prods.length; r++) {
+					for(x = 0; x < tuplas.length; x++) {
+						if (prods[r] === tuplas[x].producto) {
+							feedBuenFin.push({
+								id: tuplas[x].id,
+								category: tuplas[x].category_name_0,
+								category2: tuplas[x].category_name_1,
+								category3: tuplas[x].category_name_2,
+								brand: tuplas[x].marca,
+								title: tuplas[x].producto.length > 28 ? tuplas[x].producto.substring(0, 26).concat("...") : tuplas[x].producto,
+								price: numeral(tuplas[x].precio).format('0,0'),
+								image: tuplas[x].image,
+								thumbnail: "https://www.webservices.twinkey.cool",
+								page: tuplas[x].deeplink
+							});
+						}
+					}
+				}
+				
+				console.log(feedBuenFin);
+
+				for (x = 1; x < tuplas.length; x++) {
+					//console.log(tuplas[x].id);
+					for (y = 1; y < rows.length; y++) {
+						//console.log(rows[y].id);
+						if (rows[y].id === tuplas[x].id) {
+							//console.log("si existe");
+							//marca = rows[y].brand;
+							//marcas.push(rows[y].brand);
+							feed.push({
+								id: tuplas[x].id,
+								category: tuplas[x].category_name_0,
+								category2: tuplas[x].category_name_1,
+								category3: tuplas[x].category_name_2,
+								brand: tuplas[x].marca,
+								title: tuplas[x].producto,
+								price: numeral(tuplas[x].precio).format('0,0'),
+								image: tuplas[x].image,
+								thumbnail: rows[y].thumbnail,
+								page: tuplas[x].deeplink
+							});
+							//console.log(rows[y].brand);
+						}
+					}
+				}
+				console.log(feed);
+
+				for (z = 1; z < feed.length; z++) {
+					
+						var marca = feed[z].thumbnail.split("https://webservices.twinkey.cool/images_att/sm_moto/");
+						if (marca[1] === "") {
+							console.log(feed[z].title);
+							$('#dontthumb_moto').append('<p>'+feed[z].title+'</p>');
+						}
+						//console.log(mitad);
+					
+					//if(feed[z].thumbnail.split.("https://webservices.twinkey.cool/images_att/sm_moto/"))
+				}
+
+				for (z = 1; z < feed.length; z++) {
+					
+						var marca = feed[z].thumbnail.split("https://webservices.twinkey.cool/images_att/sm_sony_huawei_samsung/");
+						if (marca[1] === "") {
+							console.log(feed[z].title);
+							$('#dontthumb_samsung').append('<p>'+feed[z].title+'</p>');
+						}
+						//console.log(mitad);
+					
+					//if(feed[z].thumbnail.split.("https://webservices.twinkey.cool/images_att/sm_moto/"))
+				}
+				//sm_sony_huawei_samsung
+
+				//console.log(feed);
+
+			});
+
+		</script>
+		<div id="dontthumb_moto">
+			<h1>No tienen Imagen pequeña de moto</h1>
+		</div>
+
+		<div id="dontthumb_samsung">
+			<h1>No tienen Imagen pequeña de samsung</h1>
+		</div>
+
+		
+	</body>
+</html>
